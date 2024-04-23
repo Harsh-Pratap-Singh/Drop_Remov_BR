@@ -1,3 +1,4 @@
 rembg
 pillow
 flask
+## thing that i  used in it.
