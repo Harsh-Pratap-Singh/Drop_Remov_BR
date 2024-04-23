@@ -1,4 +1,4 @@
 rembg
 pillow
 flask
-## thing that i  used in it.
+## to make it run pip install the 
