@@ -13,3 +13,6 @@ This project provides a web service to remove the background from images.
 3. **Deployment**: Docker is used for deployment.
 
 ---
+### example :- 
+![My Image](Drop_Remov_BR\trial.jpg)
+![My Image](Drop_Remov_BR\save.png)
