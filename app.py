@@ -20,7 +20,8 @@ def upload_file():
             img_io = BytesIO()
             output_image.save(img_io, 'PNG')
             img_io.seek(0)
-            return send_file(img_io, mimetype='image/png', as_attachment=True, attachment_filename='save.png')
+            return send_file(img_io, mimetype='image/png', as_attachment=True, download_name='_save.png')
+            # return send_file(img_io, mimetype='image/png', as_attachment=True, attachment_filename='save.png')
 
     return render_template('index.html')
 
