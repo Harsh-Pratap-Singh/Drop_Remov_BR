@@ -1,10 +1,10 @@
 
 :root{
   --primary-color:#2f4454;
-  --dark:#2e151b;
+  --dark:#bcb3eb;
   --ligth:#da7b93;
-  --blue-light:#376e6f;
-  --blue-dark:#1c3334;
+  --blue-light:#9483c9;
+  --blue-dark:#03074a;
 
 
   --ff-open-sans: 'Open Sans', sans-serif;
@@ -19,8 +19,8 @@
 
 
 body {
-    background-color: var(--primary-color);
-    height: 100vh;
+  background-image: url(../images/hero-bg.jpg);
+  height: 100vh;
     display: flex;
 
     align-items: center;  
@@ -31,6 +31,7 @@ body {
   }
 
   .drop-zone {
+    /* background-image: url(../images/hero-bg3.jpg); */
     font-family: var(--ff-barlow);
     background-color: var(--blue-light);
     border: 2px solid var(--blue-dark);
