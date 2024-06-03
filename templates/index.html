@@ -3,6 +3,7 @@
   <head>
     <title>Remove Bg</title>
     <link rel = "stylesheet"  href = "{{ url_for('static',filename = 'css/style.css')}}">
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.png') }}">
   </head>
 
   <body>
@@ -15,7 +16,7 @@
         enctype="multipart/form-data"
       >
         <input id="fileInput" type="file" name="file" />
-        <input class = "btn" type="submit" value="remove" />
+        <input type="submit" value="remove" />
       </form>
     </div>
 
