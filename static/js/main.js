@@ -29,3 +29,19 @@ dropZone.addEventListener("drop", function (e) {
   fileInput.files = e.dataTransfer.files;
   uploadForm.submit();
 });
+
+document.getElementById('fileInput').addEventListener('change', function (event) {
+  const preview = document.getElementById('preview');
+  preview.innerHTML = '';
+  const file = event.target.files[0];
+  
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      const img = document.createElement('img');
+      img.src = e.target.result;
+      preview.appendChild(img);
+    };
+    reader.readAsDataURL(file);
+  }
+});

@@ -1,51 +1,64 @@
-
-:root{
-  --primary-color:#2f4454;
-  --dark:#bcb3eb;
-  --ligth:#da7b93;
-  --blue-light:#9483c9;
-  --blue-dark:#03074a;
-
-
-  --ff-open-sans: 'Open Sans', sans-serif;
-  --ff-barlow: 'Barlow', sans-serif;
-  --ff-poppins: 'Poppins', sans-serif;
-  
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+.drop-zone {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
 
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
 
-body {
-  background-image: url(../images/hero-bg.jpg);
-  height: 100vh;
-    display: flex;
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
 
-    align-items: center;  
-    justify-content: center;
-    text-align: center;
-    overflow-x: hidden;
+input[type="submit"]:hover {
+  background-color: #218838;
+}
 
-  }
+#preview {
+  margin-top: 20px;
+  width: 100%;
+}
 
-  .drop-zone {
-    /* background-image: url(../images/hero-bg3.jpg); */
-    font-family: var(--ff-barlow);
-    background-color: var(--blue-light);
-    border: 2px solid var(--blue-dark);
-    padding: 20px;
-    width: 70vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  .drop-zone.dragover {
-    background-color: var(--dark);
-  }
-  
+#preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

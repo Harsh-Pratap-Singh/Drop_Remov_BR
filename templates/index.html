@@ -2,24 +2,18 @@
 <html>
   <head>
     <title>Remove Bg</title>
-    <link rel = "stylesheet"  href = "{{ url_for('static',filename = 'css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='images/icon.png') }}">
   </head>
-
   <body>
     <div id="dropZone" class="drop-zone">
       <h1>✂️RmBg🎞️</h1>
-      <form
-        id="uploadForm"
-        action="/"
-        method="post"
-        enctype="multipart/form-data"
-      >
-        <input id="fileInput" type="file" name="file" />
-        <input type="submit" value="remove" />
+      <form id="uploadForm" action="/" method="post" enctype="multipart/form-data">
+        <input id="fileInput" type="file" name="file" accept="image/*" />
+        <div id="preview"></div>
+        <input type="submit" value="Remove Background" />
       </form>
     </div>
-
-    <script type = "text/javascript" src = "{{ url_for('static',filename = 'js/main.js')}}"></script>
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
   </body>
 </html>
