@@ -127,21 +127,7 @@ Follow these steps to deploy the application using Docker:
    http://localhost:5100
    ```  
 
----
 
-## Example  
-
-Below are examples of input and output images processed by this application:  
-
-### Before  
-
-![original](https://github.com/Harsh-Pratap-Singh/Drop_Remov_BR/assets/114675475/d8a377e3-15a8-4a6b-b609-2f95411b5f42)  
-
-### After  
-
-![rmbg](https://github.com/Harsh-Pratap-Singh/Drop_Remov_BR/assets/114675475/3d3af958-4192-4a45-9536-e8b9dbafc452)  
-
----
 
 ## Acknowledgements  
 
