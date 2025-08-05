@@ -148,4 +148,3 @@ Below are examples of input and output images processed by this application:
 This project uses the [**rembg**](https://github.com/danielgatis/rembg) library for background removal.  
 ```  
 
-This complete README includes setup, run instructions, Docker deployment, and an example. Let me know if you want further edits!
