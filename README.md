@@ -132,5 +132,3 @@ Follow these steps to deploy the application using Docker:
 ## Acknowledgements  
 
 This project uses the [**rembg**](https://github.com/danielgatis/rembg) library for background removal.  
-```  
-
